@@ -15,7 +15,7 @@ public class Main {
 	public static void main(String[] args) {
 		UserManager userManager =new UserManager(new MernisServiceAdapter());
 		
-		User user1= new User(1, "HAKAN", "GÝRGÝN", "12548079196", new Date(1992,6,23));
+		User user1= new User(1, "HAKAN", "GÝRGÝN", "1234567890", new Date(1992,6,23));
 		
 		
 		userManager.register(user1);
